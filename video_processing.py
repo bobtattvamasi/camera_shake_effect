@@ -12,7 +12,7 @@ import traceback
 class VideoProcessor:
     def __init__(self):
         self.stabilizer = VidStab()
-        self.video_inpainter = VideoInpainting('weights/trained_model_128_149_0.0.pth')
+        self.video_inpainter = VideoInpainting('weights/trained_model_128_49_0.0.pth')
 
     def apply_camera_shake(self, frame, border_size=0, smoothing_window=30):
         """
